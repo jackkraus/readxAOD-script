@@ -4,6 +4,7 @@ To build Athena and run the scripts needed to run
 
 ```
 git clone https://github.com/jackkraus/readxAOD-script.git;
+mv readxAOD-script/package_filters.txt .;
 lsetup "asetup 25.0.8,Athena" ; 
 mkdir athena-25.0.8 && cd athena-25.0.8; 
 mv ../package_filters.txt .; 
@@ -40,5 +41,5 @@ python -m AthenaPoolExampleAlgorithms.AthenaPoolExample_Write >& JacksWriteAlgo_
 ```
 then run the read script: 
 ```
-python -m AthenaPoolExampleAlgorithms.AthenaPoolExample_Read  >& JacksReadAlgo_log.txt
+python -m AthenaPoolExampleAlgorithms.AthenaPoolExample_Read  >& JacksReadAlgo_log.txt;
 ```
