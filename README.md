@@ -43,3 +43,4 @@ then run the read script:
 ```
 python -m AthenaPoolExampleAlgorithms.AthenaPoolExample_Read  >& JacksReadAlgo_log.txt;
 ```
+or see https://github.com/jackkraus/hvector/tree/main for the updated scripts.
